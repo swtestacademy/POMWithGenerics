@@ -15,7 +15,7 @@ public class LoginTests extends BaseTest {
     @Test (priority = 0)
     public void invalidLoginTest_InvalidUserNameInvalidPassword () throws InterruptedException {
 
-        //*************PAGE METHODS********************
+        //*************PAGE METHODS WITH JAVA GENERICS********************
         //Open N11 HomePage
         page.GetInstance(HomePage.class).goToN11();
 
@@ -27,7 +27,6 @@ public class LoginTests extends BaseTest {
 
         //*************ASSERTIONS***********************
         Thread.sleep(500);
-
         page.GetInstance(LoginPage.class).verifyLoginPassword(("E-posta adresiniz veya şifreniz hatalı"));
     }
 
