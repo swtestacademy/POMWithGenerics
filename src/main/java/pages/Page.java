@@ -21,6 +21,7 @@ public class Page {
         this.wait = wait;
     }
 
+    //JAVA Generics to Create and return a New Page
     public  <TPage extends BasePage> TPage GetInstance (Class<TPage> pageClass) {
         try {
             return pageClass.getDeclaredConstructor(WebDriver.class, WebDriverWait.class).newInstance(this.driver, this.wait);
