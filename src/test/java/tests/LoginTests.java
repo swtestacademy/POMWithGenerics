@@ -6,12 +6,6 @@ import pages.LoginPage;
 
 public class LoginTests extends BaseTest {
 
-    // Extra information:
-    // 1) @BeforeClass we declared driver and wait variables
-    // 2) We send these driver and wait variables to the page class with below declaration
-    //    Homepage homepage = new HomePage(driver,wait);
-    // 3) super () method in page class transfer the driver and wait variables values to the BasePage class.
-
     @Test (priority = 0)
     public void invalidLoginTest_InvalidUserNameInvalidPassword () throws InterruptedException {
 
