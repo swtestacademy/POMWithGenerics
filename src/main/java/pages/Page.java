@@ -1,11 +1,8 @@
 package pages;
 
-import com.sun.istack.internal.NotNull;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by obaskirt on 08-Nov-17.

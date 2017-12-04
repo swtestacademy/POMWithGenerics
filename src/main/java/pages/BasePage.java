@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage extends Page {
 
-
     public BasePage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
     }
