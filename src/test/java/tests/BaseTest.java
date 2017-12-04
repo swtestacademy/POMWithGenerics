@@ -25,6 +25,7 @@ public class BaseTest {
         //Maximize Window
         driver.manage().window().maximize();
 
+        //Instantiate the Page Class
         page = new Page(driver,wait);
     }
 
